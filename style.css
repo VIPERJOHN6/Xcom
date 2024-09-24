@@ -1,129 +1,99 @@
-section{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
+section {
     height: 100%;
-    margin: 0;
-}
-.top img{
-    margin-top: 15%;
-    margin-left: 25%;
-
-    width: 40%;
-}
-.join{
-
-    margin: 5%;
-}
-.class {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-.class h1{
-    margin-left: 10px;
-    font-family: sans-serif;
-    font-size: 70px;
-    color: white;
-}
-.oi p {
-    margin-top: 10%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-}
-.class p{
-    margin-left: 10px;
-    font-family: sans-serif;
-    color: white;
-}
-.button button{
-    margin-left: 10px;
-    width: 300px;
-    border-radius: 20px;
-    justify-content: center;
-    gap: 10px;
-}
-.btn button {
-    width: 300px;
-    border-radius: 20px;
-    justify-content: center;
-    gap: 10px;
-}
-.bum button{
-    margin-left: 10px;
-    color: white;
-    background-color: blue;
-    padding: 5px;
-    width: 300px;
-    border-radius: 20px;
-    border-color: blue;
-    justify-content: center;
-    gap: 10px;
-}
-.acc h4 {
-    margin-left: 10px;
-    color: white;
-    font-size: medium;
-}
-.by p {
-    margin-left: 10px;
-    font-size: smaller;
-}
-.sign button {
-    margin-top: 2%;
-    margin-left: 10px;
-    color: blue;
     background-color: black;
-    padding: 5px;
+}
+.section {
+    justify-content: space-around;
+    display: flex;
+}
+.image img{
+    margin: 100px;
+    margin-left: 200px;
+    width: 500px;
+}
+.content{
+    margin-top: 80px;
+    margin-right: 80px;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 10px;
+    font-family: sans-serif;
+    color: white;
+}
+.p p {
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.content button {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
     width: 300px;
     border-radius: 20px;
+    gap: 8px;
+}
+button img {
+    margin-top: 3px;
+    width: 20px;
+}
+.apple button {
+    margin-top: 8px;
+}
+.btn button{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 20px;
+}
+.apple p {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white
+}
+.sign p {
+    color: white;
+    font-size: smaller;
+    font-weight: lighter;
+}
+.all{
+    margin-top: 50px;
+}
+.all h5{
+    color: white;
+}
+.all button{
+    background-color: black;
+    color: blue;
     border-color: white;
-    justify-content: center;
-    gap: 10px;
 }
-.p p{
-    margin-left: 30px;
-}
-@media screen and (max-width:850px){
-    .top img{
-        width: 100%;
-        height: 10%;
-    }
-    .join{
-        margin-top: 20%;
-        justify-content: left;
-        align-items: start;
-    }
-    .class h1{
-        margin-top: 6%;
-        font-size: xx-large;
-        color: white;
-    }.sign button {
-        color: blue;
+@media screen and (max-width: 850px) {
+    section {
         background-color: black;
-        padding: 5px;
-        width: 300px;
-        border-radius: 20px;
-        border-color: white;
-        justify-content: center;
-        gap: 10px;
     }
-    .by p {
-        font-size: smaller;
+    .image img {
+        width: 20%;
+        margin: 5%;
     }
-    .acc h4 {
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        margin: 5%;
+    }
+    .content h1{
+        font-weight: 5%;
         color: white;
-        font-size: medium;
     }
-    .bum button{
+    .p p {
+        margin-top: 5%;
+        font-family: sans-serif;
+        font-weight: bolder;
         color: white;
-        background-color: blue;
-        padding: 2%;
-        width: 300px;
-        border-radius: 20px;
-        border-color: blue;
-        justify-content: center;
-        gap: 10px;
     }
-
+    
 }
